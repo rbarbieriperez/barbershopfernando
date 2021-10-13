@@ -26,10 +26,10 @@ export const Navbar = () => {
                         <p>BarbershopFernando</p>
                     </div>
                     <div>
-                        <p>Información</p>
-                        <p>Servicios</p>
                         <p>Galería</p>
                         <p>Promociones</p>
+                        <p>Servicios</p>
+                        <p>Información</p>
                     </div>
                 </section>
             </header>
