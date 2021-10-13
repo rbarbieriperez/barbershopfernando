@@ -1,0 +1,84 @@
+* {
+    border-width: 0px ;
+    padding: 0px;
+    margin: 0px auto ;
+    
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+/*--------------------------------------------------------------------*/
+/*---------------------------STATIC NAVBAR----------------------------*/
+/*--------------------------------------------------------------------*/
+
+
+#section-navbar{
+    width: 100vw;
+    background-color: lightblue;
+    min-height: 20%;
+    padding-top:2%;
+    display: inline-block;
+    padding-bottom: 2%;
+
+}
+
+
+#section-navbar div:first-child {
+    float: left;
+    width: 47%;
+    height: 20%;
+    margin-left: 3%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    justify-content: left;
+}
+
+#section-navbar div:first-child p{
+    float: left;
+    width: 180px;
+    animation: typing 5s steps(18) infinite;
+    overflow: hidden;
+}
+#section-navbar div:first-child::before{
+    width: 2px;
+    content: '';
+    animation: blinkCursor 0.8s steps(3) infinite;
+    border-right: solid 1px black;
+}
+
+
+
+@keyframes blinkCursor {
+    0%, 75%{
+        opacity: 1;
+    } 
+    76%, 100%{
+        opacity: 0;
+    }
+}
+
+@keyframes typing {
+    0%, 90%,100% {
+        width: 0%;
+    } 
+    30%, 60% {
+        width: 180px;
+    }
+}
+
+#section-navbar div:last-child {
+    float:right;
+    width: 50%;
+    height: 20%;
+}
+
+#section-navbar div:last-child p{
+    float:right;
+    margin-left:5%;
+}
+
+#section-navbar div:last-child p:first-child {
+    margin-right: 5%;
+}
