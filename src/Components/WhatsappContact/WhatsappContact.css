@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+
+.animation-appearing {
+    animation: Slide_up 0.5s ease ;
+}
+
+.animation-disappearing {
+    animation: Slide_down 0.5s ease;
+}
+
+
+@keyframes Slide_up {
+    0% {
+        transform: translateY(250px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes Slide_down {
+    0% {
+        transform: translateY(0px);
+    } 
+    100% {
+        transform: translateY(250px);
+    }
+}
+#contact-article{
+    background-color: #41E66B;
+    position: fixed;
+    bottom: 0;
+    height: 8%;
+    width: 50%;
+    border-radius: 35px;
+    left: 0;
+    right: 0;
+}
+
+#contact-article:hover{
+    cursor: pointer;
+    height: 8.5%;
+    width: 50.5%;
+    border-radius: 40px;
+}
+
+#image-container-whatsapp {
+    float: left;
+    width: 20%;
+    height: 100%;
+    margin-top: 1%;
+}   
+
+#image-container-whatsapp #whatsapp-image{
+    width: 30%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#parrafo-container {
+    float: right;
+    width: 80%;
+    margin-top: 2%;
+}
+
+
+
+#parrafo {
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}

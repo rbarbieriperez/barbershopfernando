@@ -8,12 +8,14 @@
     padding-top: 3.5vh;
     text-align: center;
     border-bottom: 2px solid black;
-    background-color: #638CFF;
+    /* background-color: #638CFF; */
+    background-color: black;
 }
 
 #title-container h1 {
     font-family: 'Oswald', sans-serif;
     font-size: 3vw;
+    color: white;
 }
 
 
@@ -21,7 +23,7 @@
 /*big container*/
 #desc-map-container{
     width: 100%;
-    background-color: #485180;
+    background-color: #CAD1FE;
     height: 80vh;
 }
 /*Brief Desc*/
@@ -46,7 +48,7 @@
     margin-right: 5vw;
 }
 
-#image-container img {
+#image-container #image-hombre-moderno{
     width: 25vw;
     height: 25vw;
     display: block;
